@@ -3,7 +3,7 @@
 		<link />
 	</head>
 	<body>
-		<h1 class="message">Shorten your link!</h1>
+		<h1 class="message">Shorten your link at Shortend!</h1>
 		<div>
 			<input name="text" type="url" value id="linkinput" placeholder="Paste a URL to shorten" /> <br> <br>
 			<input name="path" type="text" value id="pathinput" placeholder="Custom path (optional)" /> <br> <br>
@@ -19,7 +19,7 @@
 			document.getElementById("myinput").onclick = function () {
 				var link = document.getElementById("linkinput").value;
 				var data = {
-					domain: "link.laavesh.co",
+					domain: "shortend.short.gy",
 					originalURL: link,
 					allowDuplicates: false,
 				};
@@ -32,7 +32,7 @@
 					headers: {
 						accept: "application/json",
 						"Content-Type": "application/json",
-						authorization: "pk_ynFkEXQHXdWrijOF",
+						authorization: "pk_6FZ55Gp5DCwF4MJR",
 					},
 					body: JSON.stringify(data),
 				})
