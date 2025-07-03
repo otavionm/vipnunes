@@ -39,7 +39,7 @@ document.getElementById("myinput").onclick = function () {
             accept: "application/json",
             "Content-Type": "application/json",
             // API key -- change here if you want to use your own API key (public key)
-            authorization: "pk_iXDqRu9gPDs8RFbz",
+            authorization: "pk_mUvnAKz7aSgNDf9n",
         },
         body: JSON.stringify(data),
     })
