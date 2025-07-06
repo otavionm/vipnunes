@@ -72,11 +72,11 @@ body {
 }
 
 @media (hover: hover) {
-    .link:hover {
+    /* .link:hover {
         background-color: var(--accentColor);
         color: var(--bgColor);
     }
-}
+} */
 
 .link:active {
     background-color: var(--accentColor);
