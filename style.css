@@ -52,6 +52,18 @@ body {
     display: block;
     margin: 27px auto;
 }
+.social-icons {
+    margin-top: 10px;
+  }
+  .social-icons a {
+    color : transparent;
+  }
+  .social-icons i {
+    color: var(--accentColor);
+    font-size: 20px;
+    padding: 4px;
+    font-weight: 0.1 !important;
+  }
 
 .link {
     position: relative;
