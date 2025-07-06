@@ -61,7 +61,7 @@
     <p class="txt" id=languageParagraph9>Social media</p>
       
       <a class="link" href="i/youtube" target="_blank">
-        <i class="fa fa-youtube-play">&nbsp;</i> Youtube
+        <i class="fa fa-play-circle">&nbsp;</i> Youtube
       </a>
 
       <a class="link" href="blog" target="_blank">
@@ -170,11 +170,11 @@ function detectLanguage() {
     
     // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph5').textContent = '💫 Minha conta itch.io';
+        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> Minha conta itch.io';
     } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph5').textContent = '💫 Mi cuenta de itch.io';
+        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> Mi cuenta de itch.io';
     } else {
-        document.getElementById('languageParagraph5').textContent = "💫 My itch.io account";
+        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> My itch.io account';
     }
 }
 
