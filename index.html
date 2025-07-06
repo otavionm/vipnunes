@@ -267,6 +267,28 @@ detectLanguage();
     document.getElementById("popup-overlay").style.display = "none";
   });
 </script>
+<!-- Link redirects: !-->
+    <script>
+        // Quando a página carrega
+        window.onload = function() {
+            // hash "#youtube"
+            if (window.location.hash === '#yt') {
+                // URL:
+                window.location.href = 'https://www.youtube.com/@vipnunes';
+            }
+        };
+    </script>
+
+        <script>
+        // Quando a página carrega
+        window.onload = function() {
+            // hash "#git"
+            if (window.location.hash === '#git') {
+                // URL:
+                window.location.href = 'https://github.com/vipnunes';
+            }
+        };
+    </script>
 
       
   </body>
