@@ -54,11 +54,11 @@
    <p class="txt" id="languageParagraph">Hello, I'm Vipnunes!</p>
     
     <div id="links">
-      <a class="link" href="Current Unavaible" target="_blank">
+      <a class="link" href="mailto:admin@vipnunes.com" target="_blank">
         ✉️ E-mail
       </a>
 
-    <p class="txt">Socials</p>
+    <p class="txt" d=languageParagraph99>Social media</p>
       
       <a class="link" href="i/youtube" target="_blank">
         🎬 Youtube
@@ -74,8 +74,8 @@
       
     <p class="txt"  id=languageParagraph2>My Projects and Websites</p>
       
-      <a rel='me' class="link" id=languageParagraph5 href="services">
-        🔗 Go to services
+      <a rel='me' class="link" id=languageParagraph5 href="https://vipnunes.itch.io">
+        💫 My itch.io account
       </a>
       
     <div id="hashtag">
@@ -170,11 +170,11 @@ function detectLanguage() {
     
     // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph5').textContent = '🔗 Ir para servicos';
+        document.getElementById('languageParagraph5').textContent = '💫 Minha conta itch.io';
     } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph5').textContent = '🔗 Ir a servicios';
+        document.getElementById('languageParagraph5').textContent = '💫 Mi cuenta de itch.io';
     } else {
-        document.getElementById('languageParagraph5').textContent = "🔗 Go to services";
+        document.getElementById('languageParagraph5').textContent = "💫 My itch.io account";
     }
 }
 
@@ -215,6 +215,26 @@ function detectLanguage() {
         document.getElementById('languageParagraph8').textContent = '💰 Done a mí (a través de PicPay)';
     } else {
         document.getElementById('languageParagraph8').textContent = "💰 Donate to me (via PicPay)";
+    }
+}
+
+// Chama a função de detecção de linguagem quando a página é carregada
+detectLanguage();
+</script>
+
+<script>
+// Função para detectar a língua do navegador
+function detectLanguage() {
+    // Obtém o código da língua do navegador
+    var userLanguage = navigator.language || navigator.userLanguage;
+    
+    // Verifica a língua e atualiza o texto do parágrafo
+    if (userLanguage.startsWith('pt')) {
+        document.getElementById('languageParagraph99').textContent = 'Redes Sociais';
+    } else if (userLanguage.startsWith('es')) {
+        document.getElementById('languageParagraph99').textContent = 'Redes Sociales';
+    } else {
+        document.getElementById('languageParagraph99').textContent = "Social media";
     }
 }
 
