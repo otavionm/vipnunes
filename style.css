@@ -55,15 +55,18 @@ body {
 
   .social-icons {
     margin-top: 10px;
+    text-align: center;
   }
   .social-icons a {
     color : transparent;
+    text-align: center;
   }
   .social-icons i {
     color: var(--accentColor);
     font-size: 20px;
     padding: 4px;
     font-weight: 0.1 !important;
+    text-align: center;
   }
 
 .link {
