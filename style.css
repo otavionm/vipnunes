@@ -76,7 +76,7 @@ body {
         background-color: transparent;
         color: var(--accentColor);
     }
-} /* I inverted the hover and normal colors. */
+} /* I inverted the hover and normal colors. (to fit in the background) */
 
 .link:active {
     background-color: var(--accentColor);
