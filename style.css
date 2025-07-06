@@ -55,8 +55,8 @@ body {
 
 .link {
     position: relative;
-    background-color: transparent;
-    color: var(--accentColor);
+    background-color: var(--accentColor);
+    color: var(--bgColor);
     border: solid var(--accentColor) 2px;
     border-radius: 10px;
     font-size: 1rem;
@@ -72,11 +72,11 @@ body {
 }
 
 @media (hover: hover) {
-    /* .link:hover {
-        background-color: var(--accentColor);
-        color: var(--bgColor);
+       .link:hover {
+        background-color: transparent;
+        color: var(--accentColor);
     }
-} */
+} /* I inverted the hover and normal colors. */
 
 .link:active {
     background-color: var(--accentColor);
