@@ -74,8 +74,8 @@
       
     <p class="txt"  id=languageParagraph2>My Projects and Websites</p>
       
-      <a rel='me' class="link" id=languageParagraph5 href="https://vipnunes.itch.io">
-        <i class="fa fa-gamepad">&nbsp;</i> My itch.io account
+      <a rel='me' class="link" href="https://vipnunes.itch.io">
+        <i class="fa fa-gamepad">&nbsp;</i> itch.io
       </a>
       
     <div id="hashtag">
@@ -95,26 +95,6 @@ function detectLanguage() {
         document.getElementById('languageParagraph').textContent = '¡Hola soy Vipnunes!';
     } else {
         document.getElementById('languageParagraph').textContent = "Hello, I'm Vipnunes!";
-    }
-}
-
-// Chama a função de detecção de linguagem quando a página é carregada
-detectLanguage();
-</script>
-
-<script>
-// Função para detectar a língua do navegador
-function detectLanguage() {
-    // Obtém o código da língua do navegador
-    var userLanguage = navigator.language || navigator.userLanguage;
-    
-    // Verifica a língua e atualiza o texto do parágrafo
-    if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph3').textContent = '🐦 Site da Minha Calopsita';
-    } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph3').textContent = '🐦 Sitio web de mi cacatúa';
-    } else {
-        document.getElementById('languageParagraph3').textContent = "🐦 My Cockatiel's Website";
     }
 }
 
@@ -155,66 +135,6 @@ function detectLanguage() {
         document.getElementById('languageParagraph4').textContent = 'Mis sitios web ➡';
     } else {
         document.getElementById('languageParagraph4').textContent = "My Websites ➡";
-    }
-}
-
-// Chama a função de detecção de linguagem quando a página é carregada
-detectLanguage();
-</script>
-
-<script>
-// Função para detectar a língua do navegador
-function detectLanguage() {
-    // Obtém o código da língua do navegador
-    var userLanguage = navigator.language || navigator.userLanguage;
-    
-    // Verifica a língua e atualiza o texto do parágrafo
-    if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> Minha conta itch.io';
-    } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> Mi cuenta de itch.io';
-    } else {
-        document.getElementById('languageParagraph5').textContent = '<i class="fa fa-gamepad">&nbsp;</i> My itch.io account';
-    }
-}
-
-// Chama a função de detecção de linguagem quando a página é carregada
-detectLanguage();
-</script>
-
-<script>
-// Função para detectar a língua do navegador
-function detectLanguage() {
-    // Obtém o código da língua do navegador
-    var userLanguage = navigator.language || navigator.userLanguage;
-    
-    // Verifica a língua e atualiza o texto do parágrafo
-    if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph7').textContent = '📝 Sobre Mim';
-    } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph7').textContent = '📝 Sobre mí';
-    } else {
-        document.getElementById('languageParagraph7').textContent = "📝 About Me";
-    }
-}
-
-// Chama a função de detecção de linguagem quando a página é carregada
-detectLanguage();
-</script>
-
-<script>
-// Função para detectar a língua do navegador
-function detectLanguage() {
-    // Obtém o código da língua do navegador
-    var userLanguage = navigator.language || navigator.userLanguage;
-    
-    // Verifica a língua e atualiza o texto do parágrafo
-    if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph8').textContent = '💰 Doe para mim (via PicPay)';
-    } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph8').textContent = '💰 Done a mí (a través de PicPay)';
-    } else {
-        document.getElementById('languageParagraph8').textContent = "💰 Donate to me (via PicPay)";
     }
 }
 
