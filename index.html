@@ -23,7 +23,6 @@
   </head>
 
   <body>
-
     
     <!-- Parallax Pixel Background Animation -->
       <section class="animated-background">
@@ -32,8 +31,7 @@
       <div id="stars3"></div>
    </section>
     <!-- End of Parallax Pixel Background Animation -->
-    
-    
+
     <a id="profilePicture" href="#popup">
       <img src="https://avatars.githubusercontent.com/u/149279780" alt="Profile Picture">
     </a>
@@ -70,7 +68,7 @@
         <i class="fa fa-envelope">&nbsp;</i> E-mail
       </a>
 
-    <p class="txt" id=languageParagraph9>Social media</p>
+    <p class="txt" id=languageParagraph3>Social media</p>
       
       <a class="link" href="https://youtube.com/vipnunes" target="_blank">
         <i class="fab fa-youtube">&nbsp;</i> Youtube
@@ -90,7 +88,7 @@
         <i class="fa fa-gamepad">&nbsp;</i> itch.io
       </a>
 
-    <p class="txt">Blog</p>
+    <p class="txt" id=languageParagraph4>Blog</p>
       
   <script src="https://utteranc.es/client.js"
         repo="vipnunes/vipnunes.github.io"
@@ -104,14 +102,12 @@
     <div id="hashtag">
       vipnunes.com
     </div>
-      
+
+<!-- Translations !-->
 <script>
-// Função para detectar a língua do navegador
 function detectLanguage() {
-    // Obtém o código da língua do navegador
     var userLanguage = navigator.language || navigator.userLanguage;
     
-    // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
         document.getElementById('languageParagraph').textContent = 'Olá, meu nome é Vipnunes!';
     } else if (userLanguage.startsWith('es')) {
@@ -121,17 +117,13 @@ function detectLanguage() {
     }
 }
 
-// Chama a função de detecção de linguagem quando a página é carregada
 detectLanguage();
 </script>
 
 <script>
-// Função para detectar a língua do navegador
 function detectLanguage() {
-    // Obtém o código da língua do navegador
     var userLanguage = navigator.language || navigator.userLanguage;
     
-    // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
         document.getElementById('languageParagraph2').textContent = 'Meus projetos e sites';
     } else if (userLanguage.startsWith('es')) {
@@ -141,98 +133,40 @@ function detectLanguage() {
     }
 }
 
-// Chama a função de detecção de linguagem quando a página é carregada
 detectLanguage();
 </script>
 
 <script>
-// Função para detectar a língua do navegador
 function detectLanguage() {
-    // Obtém o código da língua do navegador
     var userLanguage = navigator.language || navigator.userLanguage;
     
-    // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph4').textContent = 'Meus Websites ➡';
+        document.getElementById('languageParagraph3').textContent = 'Redes Sociais';
     } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph4').textContent = 'Mis sitios web ➡';
+        document.getElementById('languageParagraph3').textContent = 'Redes Sociales';
     } else {
-        document.getElementById('languageParagraph4').textContent = "My Websites ➡";
+        document.getElementById('languageParagraph3').textContent = "Social media";
     }
 }
 
-// Chama a função de detecção de linguagem quando a página é carregada
 detectLanguage();
 </script>
 
 <script>
-// Função para detectar a língua do navegador
 function detectLanguage() {
-    // Obtém o código da língua do navegador
     var userLanguage = navigator.language || navigator.userLanguage;
     
-    // Verifica a língua e atualiza o texto do parágrafo
     if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph9').textContent = 'Redes Sociais';
+        document.getElementById('languageParagraph4').textContent = 'Blog (em Inglês)';
     } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph9').textContent = 'Redes Sociales';
+        document.getElementById('languageParagraph4').textContent = 'Blog (en Inglés)';
     } else {
-        document.getElementById('languageParagraph9').textContent = "Social media";
+        document.getElementById('languageParagraph4').textContent = "Blog";
     }
 }
 
-// Chama a função de detecção de linguagem quando a página é carregada
 detectLanguage();
 </script>
-
-<script>
-  // Textos traduzidos
-  const translations = {
-    "pt": "Olá, pode se inscrever no meu canal do YouTube? (@vipnunes)",
-    "en": "Hi, can you subscribe to my YouTube channel? (@vipnunes)",
-    "es": "Hola, ¿puedes suscribirte a mi canal de YouTube? (@vipnunes)"
-  };
-
-  // Detecta o idioma do navegador
-  const userLang = navigator.language.slice(0, 2);
-  const popupText = document.getElementById("popup-text");
-
-  // Aplica a tradução baseada no idioma ou usa português como padrão
-  popupText.textContent = translations[userLang] || translations["pt"];
-
-  // Exibe o fundo e o pop-up
-  document.getElementById("popup-overlay").style.display = "block";
-  document.getElementById("popup").style.display = "block";
-
-  // Função para fechar o pop-up
-  document.getElementById("popup-close").addEventListener("click", () => {
-    document.getElementById("popup").style.display = "none";
-    document.getElementById("popup-overlay").style.display = "none";
-  });
-</script>
-<!-- Link redirects: !-->
-    <script>
-        // Quando a página carrega
-        window.onload = function() {
-            // hash "#youtube"
-            if (window.location.hash === '#yt') {
-                // URL:
-                window.location.href = 'https://www.youtube.com/@vipnunes';
-            }
-        };
-    </script>
-
-        <script>
-        // Quando a página carrega
-        window.onload = function() {
-            // hash "#git"
-            if (window.location.hash === '#git') {
-                // URL:
-                window.location.href = 'https://github.com/vipnunes';
-            }
-        };
-    </script>
-
       
   </body>
 </html>
