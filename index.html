@@ -150,11 +150,11 @@ function detectLanguage() {
     var userLanguage = navigator.language || navigator.userLanguage;
     
     if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph4').textContent = 'Blog (em Inglês)';
+        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog (em Inglês)';
     } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph4').textContent = 'Blog (en Inglés)';
+        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog (en Inglés)';
     } else {
-        document.getElementById('languageParagraph4').textContent = "Blog";
+        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog';
     }
 }
 
