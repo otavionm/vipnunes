@@ -74,7 +74,7 @@
         <i class="fab fa-youtube">&nbsp;</i> Youtube
       </a>
 
-      <a class="link" id="languageParagraph4" href="blog" target="_blank">
+      <a class="link" href="blog" target="_blank">
           <i class="fa fa-rss">&nbsp;</i> Blog
        </a>
     
@@ -139,22 +139,6 @@ function detectLanguage() {
         document.getElementById('languageParagraph3').textContent = 'Redes Sociales';
     } else {
         document.getElementById('languageParagraph3').textContent = "Social media";
-    }
-}
-
-detectLanguage();
-</script>
-
-<script>
-function detectLanguage() {
-    var userLanguage = navigator.language || navigator.userLanguage;
-    
-    if (userLanguage.startsWith('pt')) {
-        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog (em Inglês)';
-    } else if (userLanguage.startsWith('es')) {
-        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog (en Inglés)';
-    } else {
-        document.getElementById('languageParagraph4').textContent = '<i class="fa fa-rss">&nbsp;</i> Blog';
     }
 }
 
