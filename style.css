@@ -13,7 +13,7 @@ body {
     padding: 0;
     min-height: 100vh;
     font-family: var(--font);
-    background-image: href="img/space.jpg"/* url('https://vipnunes.github.io/img/space.jpg') */;
+    background-image: url('https://vipnunes.run.place/img/space.jpg');
     opacity: 0;
     animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
