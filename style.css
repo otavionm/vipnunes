@@ -23,7 +23,6 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
@@ -51,6 +50,11 @@ body {
     width: auto;
     display: block;
     margin: 27px auto;
+}
+.inv {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 
   .social-icons {
